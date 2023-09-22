@@ -46,4 +46,5 @@ jobs:
         with:
           flutter-version: '3.7.7'
           channel: 'stable'
-      - run: flutter --version
+      - run: flutter pub get
+      - run: flutter build apk
