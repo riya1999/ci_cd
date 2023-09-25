@@ -119,10 +119,3 @@ jobs:
       - name: Start Release Build
         run: flutter build apk
 
-      - name: Upload APK
-        uses: actions/upload-artifact@v2
-
-      - name: app-release
-        path: build/app/outputs/flutter-apk/app-release.apk
-
-
