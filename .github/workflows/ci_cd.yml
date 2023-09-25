@@ -106,7 +106,7 @@ jobs:
           distribution: 'zulu'
           java-version: "12.x"
       # 10
-      - uses: subosito/flutter-action@v2
+      - uses: subosito/flutter-action@v2.10.0
         with:
           # 11
           flutter-version: "3.0.0"
