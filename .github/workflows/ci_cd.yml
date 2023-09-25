@@ -69,6 +69,10 @@ jobs:
           # 11
           flutter-version: "3.0.0"
           channel: 'stable'
+      - name: Show PWD
+        run: |
+            echo "Present Working Directory (PWD): $(pwd)"
+
       # 12
       - name: Get dependencies
         run: flutter pub get
